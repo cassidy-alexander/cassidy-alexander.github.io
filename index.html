@@ -1,7 +1,132 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <title>Cassidy Alexander</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+	  position: fixed;
+	  width: 100%;
+	  top: 0px;
+	  z-index: 9;
+	  background-color: black;
+	  color: white;
+    }
+	  .navbar-brand{
+		  padding-top: 10px;
+		  padding-bottom: 10px;
+	  }
+	 .jumbotron {
+		  background-color: black;
+		  margin-top: 40px;
+		  color: white;
+	  }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: black;
+      padding: 25px;
+	  color: white;
+	
+    }
+	  a {
+		  color: black;
+	  }
+	  a:hover{
+		  color: #0074FF;
+		  text-decoration: none;
+	  }
+  </style>
+</head>
 <body>
-<h1>Cassidy's GitHub site</h1>
-<p>Hosted with GitHub Pages</p>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="CSCI181_Final_Alexander.html"><img src="Images/logo.png" class="d-inline-block align-top" width="30" height="30" alt="Cassidy Logo" style = "margin-bottom: auto; margin-top: auto;"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="pages/about.html">About</a></li>
+        <li><a href="pages/journalism.html">Journalism</a></li>
+        <li><a href="pages/data.html">Data</a></li>
+		<li><a href="pages/design.html">Design</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>Cassidy Alexander</h1>      
+    <p>Journalism. Data. Design.</p>
+  </div>
+</div>
+  
+<div class="container-fluid bg-3 text-center">    
+  <h3>Journalism</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <a href = "pages/admenistration.html"><p><b>AdMENistration</b><br>The state of diversity in <br>UM leadership</p>
+      <img src="Images/admenistration.png" class="img-responsive" style="width:100%" alt="admenistration cover"></a>
+    </div>
+    <div class="col-sm-4"> 
+      <a href = "pages/avocados.html"><p><b>Students are like avocados</b></b> <br>(we get them from California)<br><br></p>
+	  <img src="Images/avocados.png" class="img-responsive" style="width:100%" alt="avocados cover"></a>
+    </div>
+    <div class="col-sm-4">
+      <a href = pages/flames.html><p><b>Who tames the flames:</b> <br>inside the tactical world of <br>Montana's firefighters</p>
+		  <img src="Images/flames.png" class="img-responsive" style="width:100%" alt="fire cover"></a>
+    </div>
+  </div>
+</div><br><br>
+
+<div class="container-fluid bg-3 text-center">  
+	<h3>Data</h3><br>
+  <div class="row">
+    <div class="col-sm-4"> 
+		<a href = "pages/dramshop.html"><p><b>Dramshop Consulting</b><br>Wine tasting event analysis</p>
+      <img src="Images/dramshop.jpg" class="img-responsive" style="width:100%" alt="drampshop logo"></a>
+    </div>
+    <div class="col-sm-4"> 
+		<a href = "pages/clustering.html"><p><b>Clustering Analysis</b><br>States by Body Mass Index</p>
+      <img src="Images/hierarchical.png" class="img-responsive" style="width:100%" alt="Clustering histogram"></a>
+    </div>
+  </div>
+</div><br><br>
+
+<div class="container-fluid bg-3 text-center" style = "margin-right: auto; margin-left: auto; display: block;">
+	<h3>Design</h3><br>
+  <div class="row">
+	<div class="col-sm-4"> 
+		<a href = "pages/mag1.html"><p><b>Life is harder than combat</b><br>Cover story design for Byline Magazine</p>
+      <img src="Images/veteran_cover.png" class="img-responsive" style="width:100%" alt="veterans cover"></a>
+    </div>
+	<div class="col-sm-4"> 
+		<a href = "pages/Graphics.html"><p><b>Graphics</b><br>Design courses at the University of Montana</p>
+      <img src="Images/fans.jpg" class="img-responsive" style="width:100%" alt="staff buyouts"></a>
+    </div>
+  </div>
+</div><br>
+
+<footer class="container-fluid text-center">
+  <p>&copy; Cassidy Alexander</p>
+</footer>
+
 </body>
 </html>
+
